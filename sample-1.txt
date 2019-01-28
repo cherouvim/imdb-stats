@@ -1,0 +1,54 @@
++---------------+----------+-----------+---------------------------------------------------+
+| averageRating | numVotes | startYear | primaryTitle                                      |
++---------------+----------+-----------+---------------------------------------------------+
+|           9.0 |  2012618 |      2008 | The Dark Knight                                   |
+|           8.9 |  1456553 |      2003 | The Lord of the Rings: The Return of the King     |
+|           8.8 |  1473173 |      2001 | The Lord of the Rings: The Fellowship of the Ring |
+|           8.8 |  1637068 |      1999 | Fight Club                                        |
+|           8.8 |  1791951 |      2010 | Inception                                         |
+|           8.7 |  1468515 |      1999 | The Matrix                                        |
+|           8.7 |  1316993 |      2002 | The Lord of the Rings: The Two Towers             |
+|           8.6 |   540232 |      2001 | Spirited Away                                     |
+|           8.6 |   630954 |      2002 | City of God                                       |
+|           8.6 |  1253152 |      2014 | Interstellar                                      |
+|           8.5 |   983991 |      1999 | The Green Mile                                    |
+|           8.5 |  1183018 |      2000 | Gladiator                                         |
+|           8.5 |  1011116 |      2000 | Memento                                           |
+|           8.5 |   623769 |      2002 | The Pianist                                       |
+|           8.5 |  1050997 |      2006 | The Departed                                      |
+|           8.5 |  1039822 |      2006 | The Prestige                                      |
+|           8.5 |   655222 |      2011 | The Intouchables                                  |
+|           8.5 |   593139 |      2014 | Whiplash                                          |
+|           8.5 |   574520 |      2018 | Avengers: Infinity War                            |
+|           8.5 |   114245 |      2016 | Dangal                                            |
+|           8.4 |   972046 |      1999 | American Beauty                                   |
+|           8.4 |   446872 |      2003 | Oldboy                                            |
+|           8.4 |   315390 |      2006 | The Lives of Others                               |
+|           8.4 |   883728 |      2008 | WALL·E                                            |
+|           8.4 |   135736 |      2007 | Like Stars on Earth                               |
+|           8.4 |   290846 |      2009 | 3 Idiots                                          |
+|           8.4 |  1357249 |      2012 | The Dark Knight Rises                             |
+|           8.4 |  1179644 |      2012 | Django Unchained                                  |
+|           8.4 |   252817 |      2017 | Coco                                              |
+|           8.4 |   121003 |      2016 | Your Name.                                        |
+|           8.3 |   686104 |      2000 | Requiem for a Dream                               |
+|           8.3 |   705199 |      2000 | Snatch                                            |
+|           8.3 |   639419 |      2001 | Amélie                                            |
+|           8.3 |   806519 |      2004 | Eternal Sunshine of the Spotless Mind             |
+|           8.3 |  1091000 |      2009 | Inglourious Basterds                              |
+|           8.3 |  1167567 |      2005 | Batman Begins                                     |
+|           8.3 |   664701 |      2010 | Toy Story 3                                       |
+|           8.3 |   823720 |      2009 | Up                                                |
+|           8.3 |   190866 |      2011 | A Separation                                      |
+|           8.3 |   233948 |      2012 | The Hunt                                          |
+|           8.2 |   753822 |      2001 | A Beautiful Mind                                  |
+|           8.2 |   275202 |      2004 | Howl's Moving Castle                              |
+|           8.2 |   298441 |      2004 | Downfall                                          |
+|           8.2 |   935980 |      2005 | V for Vendetta                                    |
+|           8.2 |   561068 |      2006 | Pan's Labyrinth                                   |
+|           8.2 |   454098 |      2007 | There Will Be Blood                               |
+|           8.2 |  1004947 |      2013 | The Wolf of Wall Street                           |
+|           8.2 |   119546 |      2010 | Incendies                                         |
+|           8.2 |   397205 |      2011 | Warrior                                           |
+|           8.2 |   169225 |      2009 | The Secret in Their Eyes                          |
++---------------+----------+-----------+---------------------------------------------------+
