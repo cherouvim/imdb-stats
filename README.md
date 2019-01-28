@@ -62,7 +62,8 @@ where
     b.titleType = 'movie' and
     r.numVotes > 1000 and
     r.averageRating > 7 and
-    b.startYear > year(CURDATE()) - 30
+    b.startYear > year(CURDATE()) - 30 and
+    b.runtimeMinutes is not null
 group by b.startYear
 order by b.startYear;
 ```
