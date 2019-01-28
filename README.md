@@ -67,3 +67,19 @@ where
 group by b.startYear
 order by b.startYear;
 ```
+
+## 5. [Average duration of recent movies by rating](sample-5.txt):
+```sql
+select
+    r.averageRating, avg(b.runtimeMinutes)
+from
+    title_ratings r, title_basics b
+where
+    r.tconst = b.tconst and
+    b.titleType = 'movie' and
+    r.numVotes > 100 and
+    b.startYear > year(CURDATE()) - 15 and
+    b.runtimeMinutes is not null
+group by r.averageRating
+order by r.averageRating;
+```
