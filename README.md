@@ -28,7 +28,7 @@ limit 50;
 ## 2. [Average rating of all highly rated movies by year](sample-2.txt):
 ```sql
 select
-    b.startYear, avg(averageRating)
+    b.startYear, avg(averageRating), count(*)
 from
     title_ratings r, title_basics b
 where
@@ -54,7 +54,7 @@ where
 ## 4. [Average durations of good movies during the last 3 decades](sample-4.txt):
 ```sql
 select
-    b.startYear, avg(b.runtimeMinutes)
+    b.startYear, avg(b.runtimeMinutes), count(*)
 from
     title_ratings r, title_basics b
 where
