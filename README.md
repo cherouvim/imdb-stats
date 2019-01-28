@@ -9,7 +9,7 @@ To load the data edit `load-data.sh` to set your MySQL info and then run it:
 ```
 This will require around 500MB in your `/tmp/` directory. After the data load is done, you can experiment with ad hoc queries. Examples:
 
-## 1. Top 50, highly rated movies since 1998:
+## 1. [Top 50, highly rated movies since 1998](sample-1.txt):
 ```sql
 select
     r.averageRating, r.numVotes, b.startYear, b.primaryTitle
@@ -25,7 +25,7 @@ order by r.averageRating desc
 limit 50;
 ```
 
-## 2. Average rating of all highly rated movies by year:
+## 2. [Average rating of all highly rated movies by year](sample-2.txt):
 ```sql
 select
     b.startYear, avg(averageRating)
@@ -39,7 +39,7 @@ group by b.startYear
 order by b.startYear;
 ```
 
-## 3. Count of all movies rated more than 10 times:
+## 3. [Count of all movies rated more than 10 times](sample-3.txt):
 ```sql
 select
     count(*)
@@ -51,7 +51,7 @@ where
     r.numVotes > 10;
 ```
 
-## 4. Average durations of good movies during the last 3 decades:
+## 4. [Average durations of good movies during the last 3 decades](sample-4.txt):
 ```sql
 select
     b.startYear, avg(runtimeMinutes)
