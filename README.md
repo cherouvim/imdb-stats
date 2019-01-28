@@ -1,8 +1,8 @@
 # imdb-stats
 
-Loads some of the TSV files of https://datasets.imdbws.com/ into a MySQL server. Documentation of those datasets can be found at: https://www.imdb.com/interfaces/
+Loads some of the TSV files of https://datasets.imdbws.com/ into a MySQL server.
 
-To load the data edit `load-data.sh` to set your MySQL info and then run it:
+Edit `load-data.sh` to set your MySQL info and then run it:
 
 ```bash
 ./load-data.sh
