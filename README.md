@@ -54,7 +54,7 @@ where
 ## 4. [Average durations of good movies during the last 3 decades](sample-4.txt):
 ```sql
 select
-    b.startYear, avg(runtimeMinutes)
+    b.startYear, avg(r.runtimeMinutes)
 from
     title_ratings r, title_basics b
 where
