@@ -51,7 +51,7 @@ where
     r.numVotes > 10;
 ```
 
-## 4. [Average durations of good movies during the last 3 decades](sample-4.txt):
+## 4. [Average duration of good movies during the last 3 decades](sample-4.txt):
 ```sql
 select
     b.startYear, avg(b.runtimeMinutes), count(*)
