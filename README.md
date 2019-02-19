@@ -1,4 +1,5 @@
 # imdb-stats
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Loads some of the TSV files of https://datasets.imdbws.com/ into a MySQL server.
 
