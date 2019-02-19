@@ -84,3 +84,6 @@ where
 group by round(r.averageRating)
 order by round(r.averageRating);
 ```
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
